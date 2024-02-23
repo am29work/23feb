@@ -1,0 +1,89 @@
+    1  history
+    2  ls
+    3  mkdir task1
+    4  cd task1
+    5  git init
+    6  touch file1
+    7  ls
+    8  git status
+    9  ls
+   10  git add file1
+   11  git status
+   12  git commit -m "my first commit"
+   13  git status
+   14  cd
+   15  mkdir task2
+   16  cd task2
+   17  git init
+   18  touch file2.txt
+   19  git add file2.txt
+   20  git status
+   21  git branch
+   22  git commit -m "2nd task"
+   23  git branch
+   24  ls
+   25  touch file3 file4 file5
+   26  git status
+   27  git add .
+   28  git status
+   29  git status
+   30  git commit -m "new taskssssss"
+   31  git status
+   32  ls
+   33  git branch
+   34  git branch feature1
+   35  git branch
+   36  git branch f2
+   37  git branch
+   38  ls
+   39  git branch
+   40  git checkout f2
+   41  ls
+   42  git status
+   43  touch file11
+   44  git add . && git commit -m "new branch changes"
+   45  git branch
+   46  git checkout master
+   47  ls
+   48  git checkout f2
+   49  ls
+   50  touch file999999
+   51  git status
+   52  git checkout master
+   53  ls
+   54  git checkout f2
+   55  ls
+   56  l
+   57  ls
+   58  git branch
+   59  git stash -u
+   60  ls
+   61  git checkout master
+   62  ls
+   63  git checkout f2
+   64  git stash pop
+   65  history
+   66  git branch
+   67  git branch -d feature1
+   68  ls
+   69  git branch
+   70  cd
+   71  mkdir task3
+   72  cd task3
+   73  git init
+   74  touch file3
+   75  git add . && git commit -m "new task"
+   76  git branch
+   77  git branch develop
+   78  git checkout develop
+   79  touch filexyz.txt
+   80  git add . && git commit -m "newwwwwwwwwww"
+   81  git checkout master
+   82  ls
+   83  git merge develop
+   84  ls
+   85  ls
+   86  git branch
+   87  git remote add origin https://github.com/am29work/21feb24.git
+   88  git push --all
+   89  history
